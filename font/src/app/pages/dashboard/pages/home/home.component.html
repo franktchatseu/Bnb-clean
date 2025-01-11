@@ -1,0 +1,92 @@
+<!-- Main Content -->
+<div class="p-6">
+    <!-- Stats Grid -->
+    <div class="grid grid-cols-3 gap-6 mb-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-lg font-semibold">Total de clients</h3>
+                <span class="text-teal-500">+8%</span>
+            </div>
+            <p class="text-3xl font-bold">560</p>
+            <p class="text-sm text-gray-500 mt-2">Mis à jour: 20 Novembre, 2024</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-lg font-semibold">Total de ménagère</h3>
+                <span class="text-teal-500">+12%</span>
+            </div>
+            <p class="text-3xl font-bold">560</p>
+            <p class="text-sm text-gray-500 mt-2">Mis à jour: 20 Novembre, 2024</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-lg font-semibold">Ménages planifiés</h3>
+                <span class="text-teal-500">+5%</span>
+            </div>
+            <p class="text-3xl font-bold">560</p>
+            <p class="text-sm text-gray-500 mt-2">Mis à jour: 20 Novembre, 2024</p>
+        </div>
+    </div>
+
+    <!-- Table Section -->
+    <div class="bg-white rounded-lg shadow">
+        <div class="p-6 flex justify-between items-center border-b">
+            <h2 class="text-lg font-semibold">Récapitulatif des interventions</h2>
+            <button class="px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg flex items-center gap-2">
+                Filter
+            </button>
+        </div>
+        <div class="overflow-x-auto">
+            <table class="w-full">
+                <thead class="bg-teal-600 text-white">
+                    <tr>
+                        <th class="px-6 py-3 text-left">Nom de l'employé</th>
+                        <th class="px-6 py-3 text-left">Appartement</th>
+                        <th class="px-6 py-3 text-left">Tâche</th>
+                        <th class="px-6 py-3 text-left">Date d'intervention</th>
+                        <th class="px-6 py-3 text-left">État</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y">
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-6 py-4">Leslie Watson</td>
+                        <td class="px-6 py-4">Code de l'appartement</td>
+                        <td class="px-6 py-4">Nettoyage salon</td>
+                        <td class="px-6 py-4">29/08/2024</td>
+                        <td class="px-6 py-4">
+                            <span class="px-3 py-1 rounded-full text-sm bg-green-100 text-green-800">
+                                Terminé
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-6 py-4">Dany mckeney</td>
+                        <td class="px-6 py-4">Code de l'appartement</td>
+                        <td class="px-6 py-4">Nettoyage cuisine</td>
+                        <td class="px-6 py-4">30/08/2024</td>
+                        <td class="px-6 py-4">
+                            <span class="px-3 py-1 rounded-full text-sm bg-yellow-100 text-yellow-800">
+                                En attente
+                            </span>
+                        </td>
+                    </tr>
+                    <!-- Répétez les lignes du tableau selon vos besoins -->
+                </tbody>
+            </table>
+        </div>
+        <div class="p-4 border-t flex items-center justify-between">
+            <div class="text-sm text-gray-500">Showing 1 to 10 of 50 records</div>
+            <div class="flex items-center gap-2">
+                <button class="p-2 hover:bg-gray-100 rounded-lg">
+                    <i class="icon-chevron-left"></i>
+                </button>
+                <button class="px-3 py-1 bg-teal-600 text-white rounded-lg">1</button>
+                <button class="px-3 py-1 hover:bg-gray-100 rounded-lg">2</button>
+                <button class="px-3 py-1 hover:bg-gray-100 rounded-lg">3</button>
+                <button class="p-2 hover:bg-gray-100 rounded-lg">
+                    <i class="icon-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

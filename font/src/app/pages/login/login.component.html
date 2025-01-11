@@ -1,0 +1,37 @@
+<div class="flex h-screen">
+    <div class="w-1/2 h-full bg-gradient-to-b from-[#8f8f8d] to-[#afaf97]">
+
+    </div>
+
+    <div class="w-1/2 flex items-center px-10">
+        <div class="w-full">
+            <h2 class="text-3xl font-bold mb-3">Connexion</h2>
+            <p class="mb-6 text-gray-500 font-semibold">Veuillez remplir vos informations</p>
+        
+            <form class="border-b pb-6 mb-6">
+                <div class="mb-4">
+                    <label class="block mb-1" for="username">Nom d'utilisateur</label>
+                    <div class="border-2 p-2 flex items-center px-3 space-x-2 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-500" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M7.5.875a3.625 3.625 0 0 0-1.006 7.109c-1.194.145-2.218.567-2.99 1.328c-.982.967-1.479 2.408-1.479 4.288a.475.475 0 1 0 .95 0c0-1.72.453-2.88 1.196-3.612c.744-.733 1.856-1.113 3.329-1.113s2.585.38 3.33 1.113c.742.733 1.195 1.892 1.195 3.612a.475.475 0 1 0 .95 0c0-1.88-.497-3.32-1.48-4.288c-.77-.76-1.795-1.183-2.989-1.328A3.627 3.627 0 0 0 7.5.875M4.825 4.5a2.675 2.675 0 1 1 5.35 0a2.675 2.675 0 0 1-5.35 0" clip-rule="evenodd"/></svg>
+                        <input type="text" id="username" placeholder="Dany mckeny" class=" w-full" required>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <label class="block mb-1" for="password">Mot de passe</label>
+                    <div class="border-2 p-2 flex items-center px-3 space-x-2 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 text-gray-500" viewBox="0 0 24 24"><path fill="currentColor" d="M6 22q-.825 0-1.412-.587T4 20V10q0-.825.588-1.412T6 8h1V6q0-2.075 1.463-3.537T12 1t3.538 1.463T17 6v2h1q.825 0 1.413.588T20 10v10q0 .825-.587 1.413T18 22zm0-2h12V10H6zm6-3q.825 0 1.413-.587T14 15t-.587-1.412T12 13t-1.412.588T10 15t.588 1.413T12 17M9 8h6V6q0-1.25-.875-2.125T12 3t-2.125.875T9 6zM6 20V10z"/></svg>
+                        <input type="password" id="password" placeholder="****************" class=" w-full" required>
+                    </div>
+                </div>
+                <button routerLink="/dashboard" type="submit" class="bg-cyan-600 rounded-lg p-2 text-white font-semibold w-full">Connexion</button>
+            </form>
+        
+            <p class=" text-center flex justify-between items-center">
+                <span>N'avez-vous pas de compte ?</span> 
+                <a routerLink="/register" class="text-yellow-400 hover:underline">Inscrivez-vous ici</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+
