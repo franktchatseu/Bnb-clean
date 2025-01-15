@@ -1,4 +1,4 @@
-<button class="btn btn-outline border btn-block space-x-3 p-3" [ngClass]="['text-'+textColor , 'w-'+size , 'bg-'+bgColor , 'rounded-'+rounded]">
+<button class="btn border btn-block space-x-3 p-3" [ngClass]="['text-'+textColor , 'w-'+size , 'bg-'+bgColor , 'rounded-'+rounded]">
     @if(!isloading){
         <ng-content #icon></ng-content>
         <span>{{text}}</span>
